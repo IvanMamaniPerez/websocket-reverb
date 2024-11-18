@@ -1,0 +1,107 @@
+2024-11-18 00:39:03,584 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-11-18 00:39:03,585 INFO supervisord started with pid 1
+2024-11-18 00:39:04,589 INFO spawned: 'npm_run_dev' with pid 7
+2024-11-18 00:39:04,592 INFO spawned: 'nginx' with pid 8
+2024-11-18 00:39:04,594 INFO spawned: 'octane' with pid 9
+2024-11-18 00:39:04,601 WARN exited: nginx (exit status 1; not expected)
+2024-11-18 00:39:06,105 INFO spawned: 'nginx' with pid 73
+2024-11-18 00:39:06,106 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-18 00:39:06,114 WARN exited: nginx (exit status 1; not expected)
+2024-11-18 00:39:08,120 INFO spawned: 'nginx' with pid 74
+2024-11-18 00:39:08,131 WARN exited: nginx (exit status 1; not expected)
+2024-11-18 00:39:10,134 INFO success: npm_run_dev entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-18 00:39:11,139 INFO spawned: 'nginx' with pid 75
+2024-11-18 00:39:11,149 WARN exited: nginx (exit status 1; not expected)
+2024-11-18 00:39:12,150 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2024-11-18 00:40:18,850 WARN received SIGTERM indicating exit request
+2024-11-18 00:40:18,850 INFO waiting for npm_run_dev, octane to die
+2024-11-18 00:40:18,866 INFO stopped: octane (exit status 0)
+2024-11-18 00:40:18,867 INFO reaped unknown pid 44 (terminated by SIGKILL)
+2024-11-18 00:40:18,867 INFO reaped unknown pid 45 (terminated by SIGKILL)
+2024-11-18 00:40:18,867 INFO reaped unknown pid 42 (terminated by SIGKILL)
+2024-11-18 00:40:19,936 INFO stopped: npm_run_dev (exit status 0)
+2024-11-18 00:40:19,936 INFO reaped unknown pid 50 (exit status 0)
+2024-11-18 00:40:20,681 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-11-18 00:40:20,683 INFO supervisord started with pid 1
+2024-11-18 00:40:21,686 INFO spawned: 'npm_run_dev' with pid 7
+2024-11-18 00:40:21,689 INFO spawned: 'nginx' with pid 8
+2024-11-18 00:40:21,691 INFO spawned: 'octane' with pid 9
+2024-11-18 00:40:23,185 INFO success: npm_run_dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-18 00:40:23,185 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-18 00:40:23,185 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-18 00:41:37,069 WARN received SIGTERM indicating exit request
+2024-11-18 00:41:37,069 INFO waiting for npm_run_dev, nginx, octane to die
+2024-11-18 00:41:37,090 INFO stopped: octane (exit status 0)
+2024-11-18 00:41:37,090 INFO reaped unknown pid 64 (terminated by SIGKILL)
+2024-11-18 00:41:37,090 INFO reaped unknown pid 65 (terminated by SIGKILL)
+2024-11-18 00:41:37,090 INFO reaped unknown pid 62 (terminated by SIGKILL)
+2024-11-18 00:41:37,137 INFO stopped: nginx (exit status 0)
+2024-11-18 00:41:37,210 INFO stopped: npm_run_dev (exit status 0)
+2024-11-18 00:41:37,210 INFO reaped unknown pid 70 (exit status 0)
+2024-11-18 00:42:08,967 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-11-18 00:42:08,969 INFO supervisord started with pid 1
+2024-11-18 00:42:09,971 INFO spawned: 'npm_run_dev' with pid 7
+2024-11-18 00:42:09,975 INFO spawned: 'nginx' with pid 8
+2024-11-18 00:42:09,979 INFO spawned: 'octane' with pid 9
+2024-11-18 00:42:11,498 INFO success: npm_run_dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-18 00:42:11,498 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-18 00:42:11,498 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-18 00:44:01,683 CRIT uncaptured python exception, closing channel <POutputDispatcher at 134076304557936 for <Subprocess at 134076302330048 with name npm_run_dev in state RUNNING> (stderr)> (<class 'OSError'>:[Errno 29] Invalid seek [/usr/lib/python3.12/site-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3.12/site-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3.12/site-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3.12/site-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3.12/site-packages/supervisor/loggers.py|info|327] [/usr/lib/python3.12/site-packages/supervisor/loggers.py|log|345] [/usr/lib/python3.12/site-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3.12/site-packages/supervisor/loggers.py|doRollover|264])
+2024-11-18 00:44:01,782 CRIT uncaptured python exception, closing channel <POutputDispatcher at 134076304557936 for <Subprocess at 134076302330048 with name npm_run_dev in state RUNNING> (stderr)> (<class 'OSError'>:[Errno 29] Invalid seek [/usr/lib/python3.12/site-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3.12/site-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3.12/site-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3.12/site-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3.12/site-packages/supervisor/loggers.py|info|327] [/usr/lib/python3.12/site-packages/supervisor/loggers.py|log|345] [/usr/lib/python3.12/site-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3.12/site-packages/supervisor/loggers.py|doRollover|264])
+2024-11-18 00:44:11,775 CRIT uncaptured python exception, closing channel <POutputDispatcher at 134076304557936 for <Subprocess at 134076302330048 with name npm_run_dev in state RUNNING> (stderr)> (<class 'OSError'>:[Errno 29] Invalid seek [/usr/lib/python3.12/site-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3.12/site-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3.12/site-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3.12/site-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3.12/site-packages/supervisor/loggers.py|info|327] [/usr/lib/python3.12/site-packages/supervisor/loggers.py|log|345] [/usr/lib/python3.12/site-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3.12/site-packages/supervisor/loggers.py|doRollover|264])
+2024-11-18 00:44:11,794 CRIT uncaptured python exception, closing channel <POutputDispatcher at 134076304557936 for <Subprocess at 134076302330048 with name npm_run_dev in state RUNNING> (stderr)> (<class 'OSError'>:[Errno 29] Invalid seek [/usr/lib/python3.12/site-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3.12/site-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3.12/site-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3.12/site-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3.12/site-packages/supervisor/loggers.py|info|327] [/usr/lib/python3.12/site-packages/supervisor/loggers.py|log|345] [/usr/lib/python3.12/site-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3.12/site-packages/supervisor/loggers.py|doRollover|264])
+2024-11-18 00:44:16,886 CRIT uncaptured python exception, closing channel <POutputDispatcher at 134076304557936 for <Subprocess at 134076302330048 with name npm_run_dev in state RUNNING> (stderr)> (<class 'OSError'>:[Errno 29] Invalid seek [/usr/lib/python3.12/site-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3.12/site-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3.12/site-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3.12/site-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3.12/site-packages/supervisor/loggers.py|info|327] [/usr/lib/python3.12/site-packages/supervisor/loggers.py|log|345] [/usr/lib/python3.12/site-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3.12/site-packages/supervisor/loggers.py|doRollover|264])
+2024-11-18 00:44:16,886 CRIT uncaptured python exception, closing channel <POutputDispatcher at 134076304557936 for <Subprocess at 134076302330048 with name npm_run_dev in state RUNNING> (stderr)> (<class 'OSError'>:[Errno 29] Invalid seek [/usr/lib/python3.12/site-packages/supervisor/supervisord.py|runforever|218] [/usr/lib/python3.12/site-packages/supervisor/dispatchers.py|handle_read_event|276] [/usr/lib/python3.12/site-packages/supervisor/dispatchers.py|record_output|210] [/usr/lib/python3.12/site-packages/supervisor/dispatchers.py|_log|179] [/usr/lib/python3.12/site-packages/supervisor/loggers.py|info|327] [/usr/lib/python3.12/site-packages/supervisor/loggers.py|log|345] [/usr/lib/python3.12/site-packages/supervisor/loggers.py|emit|227] [/usr/lib/python3.12/site-packages/supervisor/loggers.py|doRollover|264])
+2024-11-18 00:44:26,530 INFO reaped unknown pid 221 (exit status 0)
+2024-11-18 00:59:32,538 WARN received SIGTERM indicating exit request
+2024-11-18 00:59:32,538 INFO waiting for npm_run_dev, nginx, octane to die
+2024-11-18 00:59:32,565 INFO stopped: octane (exit status 0)
+2024-11-18 00:59:32,565 INFO reaped unknown pid 276 (terminated by SIGKILL)
+2024-11-18 00:59:32,565 INFO reaped unknown pid 277 (terminated by SIGKILL)
+2024-11-18 00:59:32,565 INFO reaped unknown pid 62 (terminated by SIGKILL)
+2024-11-18 00:59:32,617 INFO stopped: nginx (exit status 0)
+2024-11-18 00:59:32,651 INFO stopped: npm_run_dev (exit status 0)
+2024-11-18 00:59:32,651 INFO reaped unknown pid 70 (exit status 0)
+2024-11-18 00:59:39,016 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-11-18 00:59:39,017 INFO supervisord started with pid 1
+2024-11-18 00:59:40,022 INFO spawned: 'npm_run_dev' with pid 7
+2024-11-18 00:59:40,025 INFO spawned: 'nginx' with pid 8
+2024-11-18 00:59:40,028 INFO spawned: 'octane' with pid 9
+2024-11-18 00:59:41,848 INFO success: npm_run_dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-18 00:59:41,848 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-18 00:59:41,848 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-18 01:00:44,239 WARN received SIGTERM indicating exit request
+2024-11-18 01:00:44,240 INFO waiting for npm_run_dev, nginx, octane to die
+2024-11-18 01:00:44,270 INFO stopped: octane (exit status 0)
+2024-11-18 01:00:44,270 INFO reaped unknown pid 80 (terminated by SIGKILL)
+2024-11-18 01:00:44,270 INFO reaped unknown pid 81 (terminated by SIGKILL)
+2024-11-18 01:00:44,270 INFO reaped unknown pid 62 (terminated by SIGKILL)
+2024-11-18 01:00:44,313 INFO stopped: nginx (exit status 0)
+2024-11-18 01:00:44,356 INFO stopped: npm_run_dev (exit status 0)
+2024-11-18 01:00:44,356 INFO reaped unknown pid 70 (exit status 0)
+2024-11-18 01:00:45,201 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-11-18 01:00:45,203 INFO supervisord started with pid 1
+2024-11-18 01:00:46,206 INFO spawned: 'npm_run_dev' with pid 7
+2024-11-18 01:00:46,208 INFO spawned: 'nginx' with pid 8
+2024-11-18 01:00:46,209 INFO spawned: 'octane' with pid 9
+2024-11-18 01:00:47,436 INFO success: npm_run_dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-18 01:00:47,436 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-18 01:00:47,437 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-18 01:01:41,641 WARN received SIGTERM indicating exit request
+2024-11-18 01:01:41,642 INFO waiting for npm_run_dev, nginx, octane to die
+2024-11-18 01:01:41,667 INFO stopped: octane (exit status 0)
+2024-11-18 01:01:41,668 INFO reaped unknown pid 80 (terminated by SIGKILL)
+2024-11-18 01:01:41,668 INFO reaped unknown pid 81 (terminated by SIGKILL)
+2024-11-18 01:01:41,668 INFO reaped unknown pid 62 (terminated by SIGKILL)
+2024-11-18 01:01:41,714 INFO stopped: nginx (exit status 0)
+2024-11-18 01:01:41,743 INFO stopped: npm_run_dev (exit status 0)
+2024-11-18 01:01:41,743 INFO reaped unknown pid 70 (exit status 0)
+2024-11-18 01:02:04,809 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-11-18 01:02:04,810 INFO supervisord started with pid 1
+2024-11-18 01:02:05,814 INFO spawned: 'npm_run_dev' with pid 7
+2024-11-18 01:02:05,817 INFO spawned: 'nginx' with pid 8
+2024-11-18 01:02:05,818 INFO spawned: 'octane' with pid 9
+2024-11-18 01:02:06,986 INFO success: npm_run_dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-18 01:02:06,986 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-18 01:02:06,986 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-18 01:08:24,381 INFO reaped unknown pid 128 (exit status 0)
